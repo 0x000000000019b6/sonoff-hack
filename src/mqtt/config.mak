@@ -1,7 +1,6 @@
 #
 #  This file is part of mqttv4 (https://github.com/TheCrypt0/mqttv4).
 #  Copyright (c) 2018-2019 Davide Maggioni.
-#  Copyright (c) 2020 roleo.
 # 
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -16,9 +15,9 @@
 #  along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-CC=arm-sonoff-linux-uclibcgnueabi-gcc
-USER_CFLAGS=-I/home/user/x-tools/arm-sonoff-linux-uclibcgnueabi/arm-sonoff-linux-uclibcgnueabi/sysroot/usr/include -L/home/user/x-tools/arm-sonoff-linux-uclibcgnueabi/arm-sonoff-linux-uclibcgnueabi/sysroot/lib
+CC=arm-openwrt-linux-gcc
+USER_CFLAGS=-mcpu=cortex-a7 -mfpu=neon-vfpv4 -I/opt/yi/toolchain-sunxi-musl/toolchain/include -L/opt/yi/toolchain-sunxi-musl/toolchain/lib
 USER_LDFLAGS=
-AR=arm-sonoff-linux-uclibcgnueabi-ar
-RANLIB=arm-sonoff-linux-uclibcgnueabi-ranlib
-STRIP=arm-sonoff-linux-uclibcgnueabi-strip
+AR=arm-openwrt-linux-ar
+RANLIB=arm-openwrt-linux-ranlib
+STRIP=arm-openwrt-linux-strip
