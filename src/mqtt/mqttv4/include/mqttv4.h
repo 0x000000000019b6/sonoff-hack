@@ -15,9 +15,10 @@
 #include "files.h"
 
 #define MQTTV4_VERSION      "0.0.3"
-#define MQTT_SONOFF_CONF_FILE    "/mnt/mmc/sonoff-hack/etc/mqttv4.conf"
 
-#define MQTT_SONOFF_SNAPSHOT     "/mnt/mmc/sonoff-hack/bin/snapshot"
+#define MQTTV4_CONF_FILE    "/mnt/mmc/sonoff-hack/etc/mqttv4.conf"
+
+#define MQTTV4_SNAPSHOT     "/mnt/mmc/sonoff-hack/bin/snapshot"
 
 typedef struct
 {
