@@ -16,8 +16,8 @@
 #
 
 CC=arm-openwrt-linux-gcc
-USER_CFLAGS=-mcpu=cortex-a7 -mfpu=neon-vfpv4 -I/opt/yi/toolchain-sunxi-musl/toolchain/include -L/opt/yi/toolchain-sunxi-musl/toolchain/lib
+USER_CFLAGS=-mcpu=cortex-a7 -mfpu=neon-vfpv4 -I/home/user/x-tools/arm-sonoff-linux-uclibcgnueabi/arm-sonoff-linux-uclibcgnueabi/sysroot/usr/include -L/home/user/x-tools/arm-sonoff-linux-uclibcgnueabi/arm-sonoff-linux-uclibcgnueabi/sysroot/lib
 USER_LDFLAGS=
-AR=arm-openwrt-linux-ar
-RANLIB=arm-openwrt-linux-ranlib
-STRIP=arm-openwrt-linux-strip
+AR=arm-sonoff-linux-uclibcgnueabi
+RANLIB=arm-sonoff-linux-uclibcgnueabi-ranlib
+STRIP=arm-sonoff-linux-uclibcgnueabi-strip
