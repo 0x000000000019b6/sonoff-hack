@@ -156,7 +156,7 @@ if [[ $(get_config NTPD) == "yes" ]] ; then
 fi
 
 if [[ $(get_config MQTT) == "yes" ]] ; then
-    $SONOFF_HACK_PREFIX/bin/mqtt-sonoff &
+    $SONOFF_HACK_PREFIX/bin/mqttv4 &
 fi
 
 if [[ $ONVIF_PORT != "80" ]] ; then

@@ -25,7 +25,7 @@ CONF_TYPE="$(get_conf_type)"
 CONF_FILE=""
 
 if [ "$CONF_TYPE" == "mqtt" ] ; then
-    CONF_FILE="$SONOFF_HACK_PREFIX/etc/mqtt-sonoff.conf"
+    CONF_FILE="$SONOFF_HACK_PREFIX/etc/mqttv4.conf"
 else
     CONF_FILE="$SONOFF_HACK_PREFIX/etc/$CONF_TYPE.conf"
 fi

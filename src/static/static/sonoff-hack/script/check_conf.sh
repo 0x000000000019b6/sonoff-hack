@@ -2,7 +2,7 @@
 
 SYSTEM_CONF_FILE="/mnt/mmc/sonoff-hack/etc/system.conf"
 CAMERA_CONF_FILE="/mnt/mmc/sonoff-hack/etc/camera.conf"
-MQTT_SONOFF_CONF_FILE="/mnt/mmc/sonoff-hack/etc/mqtt-sonoff.conf"
+MQTT_SONOFF_CONF_FILE="/mnt/mmc/sonoff-hack/etc/mqttv4.conf"
 
 PARMS1="
 HTTPD=yes
