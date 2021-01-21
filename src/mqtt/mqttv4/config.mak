@@ -15,9 +15,9 @@
 #  along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-CC=arm-hisiv300-linux-gcc
-USER_CFLAGS=-march=armv5te -mcpu=arm926ej-s -I/opt/hisi-linux/x86-arm/arm-hisiv300-linux/target/usr/include -L/opt/hisi-linux/x86-arm/arm-hisiv300-linux/target/usr/lib
+CC=arm-sonoff-linux-uclibcgnueabi
+USER_CFLAGS=-march=armv5te -mcpu=arm926ej-s -I/home/user/x-tools/arm-sonoff-linux-uclibcgnueabi/arm-sonoff-linux-uclibcgnueabi/sysroot/usr/include -L/home/user/x-tools/arm-sonoff-linux-uclibcgnueabi/arm-sonoff-linux-uclibcgnueabi/sysroot/lib
 USER_LDFLAGS=
-AR=arm-hisiv300-linux-ar
-RANLIB=arm-hisiv300-linux-ranlib
-STRIP=arm-hisiv300-linux-strip
+AR=arm-sonoff-linux-uclibcgnueabi
+RANLIB=arm-sonoff-linux-uclibcgnueabi-ranlib
+STRIP=arm-sonoff-linux-uclibcgnueabi-strip

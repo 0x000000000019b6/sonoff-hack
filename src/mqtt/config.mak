@@ -15,7 +15,7 @@
 #  along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-CC=arm-openwrt-linux-gcc
+CC=arm-sonoff-linux-uclibcgnueabi
 USER_CFLAGS=-mcpu=cortex-a7 -mfpu=neon-vfpv4 -I/home/user/x-tools/arm-sonoff-linux-uclibcgnueabi/arm-sonoff-linux-uclibcgnueabi/sysroot/usr/include -L/home/user/x-tools/arm-sonoff-linux-uclibcgnueabi/arm-sonoff-linux-uclibcgnueabi/sysroot/lib
 USER_LDFLAGS=
 AR=arm-sonoff-linux-uclibcgnueabi
