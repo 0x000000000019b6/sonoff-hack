@@ -15,9 +15,9 @@
 #  along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-CC=arm-sonoff-linux-uclibcgnueabi
+CC=arm-sonoff-linux-uclibcgnueabi-gcc
 USER_CFLAGS=-march=armv5te -mcpu=arm926ej-s -I/home/user/x-tools/arm-sonoff-linux-uclibcgnueabi/arm-sonoff-linux-uclibcgnueabi/sysroot/usr/include -L/home/user/x-tools/arm-sonoff-linux-uclibcgnueabi/arm-sonoff-linux-uclibcgnueabi/sysroot/lib
 USER_LDFLAGS=
-AR=arm-sonoff-linux-uclibcgnueabi
+AR=arm-sonoff-linux-uclibcgnueabi-ar
 RANLIB=arm-sonoff-linux-uclibcgnueabi-ranlib
 STRIP=arm-sonoff-linux-uclibcgnueabi-strip
